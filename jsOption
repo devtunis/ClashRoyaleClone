@@ -1,0 +1,31 @@
+# My Tiled + JavaScript Game Project
+
+## Overview
+This is a simple game project made with **Tiled Map Editor** and **JavaScript**.  
+The project is designed to experiment with **Tiles, Layers, and Objects** like enemies, obstacles, and ground tiles.  
+
+---
+
+## Features
+- **Tiled Map Support:** Import `.json` maps exported from Tiled.
+- **Multiple Layers:**  
+  - Ground Layer (tiles like grass, sand, water)  
+  - Obstacle Layer (walls, rocks, trees)  
+  - Enemy Layer (objects with x, y coordinates)  
+  - Optional Layers (effects, tree tops)
+- **JavaScript Rendering:** Draws tiles, obstacles, and objects using Canvas.
+- **Expandable:** Easy to add new layers, tiles, or enemies.
+
+---
+
+## How it Works
+1. Design your map in **Tiled**.  
+2. Export the map as **JSON**.  
+3. Load the JSON in JavaScript:  
+
+```javascript
+fetch("map.json")
+  .then(res => res.json())
+  .then(map => {
+    // Loop through layers and draw tiles
+  });
