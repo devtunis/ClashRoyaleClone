@@ -25,5 +25,7 @@ card.on('pointerupoutside', () => {
     card.dragging = false;
     card.data = null;
 });
+
+first thing you should do go up and down bt * the dx by -1 to test first thing in this co de
 https://www.youtube.com/watch?v=yob_-5KSl2g
 // start with this one
