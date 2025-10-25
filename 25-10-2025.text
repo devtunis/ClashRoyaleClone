@@ -3,8 +3,17 @@ https://pixijs.com/8.x/guides/getting-started/intro
 https://www.youtube.com/watch?v=kkbzL5dXezU&list=PLjcjAqAnHd1ELH6j5RZaT2Ilvwj1sMCi6&index=1
 https://www.youtube.com/watch?v=_HjQTzpbRK4&list=PLGsA9l-S7trVmUJ7HJsNSKIj0qoAO_qO8&index=1 good doc
 
+Sprites و Textures
 
+Anchor points
 
+Containers
+
+AnimatedSprites و Spritesheets
+
+Interaction events (pointerdown, pointermove)
+
+Game loop (Ticker
 
 # 🎮 PixiJS Game Engine — Notes & Documentation
 
